@@ -3,19 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
     color: white;
+    background-color: #000;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
-}
+
 
 .section {
     height: 100vh;
@@ -34,9 +30,7 @@ body {
 }
 
 
-.projects {
-    background: #9c9c9c;
-}
+
 .contact {
     color: orange;
     background: white;

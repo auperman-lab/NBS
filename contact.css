@@ -1,0 +1,82 @@
+
+.contact {
+    color: orange;
+    background: white;
+
+
+}
+
+.contact .contact-section {
+    width: 100%;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1rem;
+
+}
+
+.contact .contact-intro > * + * {
+    margin-top: 1rem;
+}
+
+.contact .contact-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.contact .contact-description {
+    color: black;
+}
+
+.contact .form-group-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form-label {
+    margin-bottom: 0.5rem;
+}
+
+.contact .form-input,
+.contact .form-textarea {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.contact .form-input::placeholder,
+.contact .form-textarea:focus-visible {
+    color: black;
+}
+
+.contact .form-input:focus-visible,
+.contact .form-textarea:focus-visible {
+    outline: 2px solid orange;
+    outline-offset: 2px;
+}
+
+.contact .form-textarea {
+    min-height: 120px;
+}
+
+.contact .form-submit {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: orange;
+    color: #fff;
+    padding: 13px 5px;
+    border-radius: 0.375rem;
+    border-color: orange;
+}

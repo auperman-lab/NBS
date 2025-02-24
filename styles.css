@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: #000;
+}
+
+
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+
+.home {
+    background: black;
+}
+.home b{
+    color:orange;
+}
+
+
+/* Typography */
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+    margin-top: 20px;
+}

@@ -23,18 +23,17 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
     background-size: cover;
-    background-position: center;
 }
 
 .home {
     background: black;
 }
-
-.about {
-    background: gray;
+.home b{
+    color:orange;
 }
+
+
 .projects {
     background: #9c9c9c;
 }
@@ -71,7 +70,7 @@ p {
 footer {
     text-align: center;
     padding: 15px;
-    background: #222;
+    background: black;
     color: white;
     margin-top: 20px;
 }

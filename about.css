@@ -1,0 +1,95 @@
+.about {
+    background: gray;
+}
+
+.about .about-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about h2 {
+    height:10%;
+    font-size: 4rem;
+    padding: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    gap:40px
+
+}
+.about-content-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 2000px;
+    width: 100%;
+    height: fit-content;
+    max-height: 1600px;
+    gap:100px;
+    padding: 0px 40px;
+}
+
+
+.about .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding: 50px 20px;
+
+}
+
+.about  p{
+    font-size: 2rem;
+
+}
+
+.about .list i {
+    margin: 10px;
+}
+
+.about .list-below{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:50px
+}
+
+
+.about-image {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .about p{
+        font-size: 2rem;
+
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .about  p{
+        font-size: 2.5rem;
+
+    }
+
+}

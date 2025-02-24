@@ -1,31 +1,77 @@
-
-body{
+* {
     margin: 0;
-}
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-h1{
-    text-align: center;
-}
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
     padding: 0;
-    margin: 0;
-    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.navbar a{
+
+body {
     color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+
+.home {
+    background: black;
 }
-.navbar li{
-    float: left;
+
+.about {
+    background: gray;
+}
+.projects {
+    background: #9c9c9c;
+}
+.contact {
+    color: orange;
+    background: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Typography */
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
 }

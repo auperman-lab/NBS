@@ -83,7 +83,16 @@
     }
 
 }
-
+@media screen and (max-width: 1200px) {
+    .about-content-row{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .about-image {
+        min-width: 300px;
+        padding: 0px 20px;
+    }
+}
 @media screen and (min-width: 1500px) {
     .about  p{
         font-size: 2.5rem;

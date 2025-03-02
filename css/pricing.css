@@ -22,7 +22,6 @@
     border-radius: 5px;
     text-align: center;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .pricing2 .plan h2 {
@@ -91,6 +90,10 @@
 /* Hover effect */
 .pricing2 .plan:hover {
     box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
+}
+
+.pricing2 button{
+    cursor: pointer;
 }
 
 

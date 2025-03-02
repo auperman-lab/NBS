@@ -1,5 +1,5 @@
-.navbar {
-    display: flex;
+.top-navbar {
+    display: none;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -8,16 +8,16 @@
     padding: 1rem 2rem;
 }
 
-.navbar ul {
+.top-navbar ul {
     list-style: none;
     display: flex;
 }
 
-.navbar ul li {
+.top-navbar ul li {
     margin: 0 15px;
 }
 
-.navbar ul li a {
+.top-navbar ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -27,3 +27,50 @@
     padding: 14px;
 }
 
+
+.bottom-navbar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    width: 100%;
+    margin-inline: auto;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    z-index: 10;
+}
+
+.bottom-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.bottom-navbar ul li a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color .01s ease-in-out;
+    text-decoration: none;
+
+}
+
+.bottom-navbar ul a:active {
+    color: orange;
+    transition: color 0.01s ease-in-out;
+}
+
+@media screen and (min-width: 700px) {
+    .top-navbar {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bottom-navbar {
+        display: block;
+    }
+}

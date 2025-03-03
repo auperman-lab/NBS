@@ -14,12 +14,21 @@
 
 </head>
 <body>
-<nav class="navbar">
+<nav class="top-navbar">
   <ul>
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
-    <li><a href="#pricing">Products</a></li>
+    <li><a href="#pricing">Pricing</a></li>
     <li><a href="#contact">Contacts</a></li>
+  </ul>
+</nav>
+
+<nav class="bottom-navbar">
+  <ul>
+    <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+    <li><a href="#about"><i class="fa-solid fa-circle-info"></i></a></li>
+    <li><a href="#pricing"><i class="fa-solid fa-money-bill"></i></a></li>
+    <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
   </ul>
 </nav>
 
@@ -32,24 +41,26 @@
 </section>
 
 <section id="about" class="section about">
-  <div class=" about-container">
-    <h1>Product Overview</h1>
+  <h1>Product Overview</h1>
+  <div class="about-content-container">
     <div class="about-content">
-      <div class="about-content-row">
-        <div class="list">
-          <p><i class="fas fa-broom"></i> Cleaning services</p>
-          <p><i class="fas fa-gamepad"></i> Boosting your League of Legends account</p>
-        </div>
-        <img src="assets/img/nichita.png" alt="Nichita" class="about-image">
-        <div class="list">
-          <p><i class="fas fa-dumbbell"></i>Professional heavy objects Mover</p>
-          <p><i class="fas fa-music"></i> Pop Music listener</p>
-        </div>
+      <div class="list">
+        <p><i class="fas fa-broom"></i> Cleaning services</p>
+        <p><i class="fas fa-gamepad"></i> Boosting your <span class="lol-open">League of Legends</span><span class="lol-close">LOL</span> account</p>
       </div>
-      <div class="list-below">
+      <img src="assets/img/nichita.png" alt="Nichita" class="about-image">
+      <div class="list">
+        <p><i class="fas fa-dumbbell"></i>Professional heavy objects Mover</p>
+        <p><i class="fas fa-music"></i> Pop Music listener</p>
+      </div>
+      <div class="list small">
         <p><i class="fas fa-home"></i> Android distro Master</p>
         <p><i class="fas fa-comments"></i> Good Listener</p>
       </div>
+    </div>
+    <div class="list-below">
+      <p><i class="fas fa-home"></i> Android distro Master</p>
+      <p><i class="fas fa-comments"></i> Good Listener</p>
     </div>
   </div>
 </section>
@@ -62,6 +73,7 @@
     </p>
   </div>
 
+  <div class="pricing-container">
   <div class="pricing2">
     <div class="plan">
       <h2>Dev</h2>
@@ -101,13 +113,14 @@
       <button>Contact Us</button>
     </div>
   </div>
+  </div>
 </section>
 
 <section id="contact" class="section contact">
   <div class="contact-section">
 
   <div class="contact-intro">
-    <h2 class="contact-title">Contact Us</h2>
+    <h1 class="contact-title">Contact Us</h1>
     <p class="contact-description">
       Fill out the form below and we'll get back to you as soon as possible.
     </p>
@@ -141,6 +154,7 @@
   </div>
 
 </section>
+
 
 
 <footer>

@@ -1,15 +1,13 @@
 .about {
     background: gray;
-}
-
-.about .about-container{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     height: 100%;
 }
 
+
 .about h1 {
-    height:10%;
     padding: 30px;
 }
 .about-content-container {

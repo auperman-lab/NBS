@@ -11,6 +11,8 @@
 .top-navbar ul {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-navbar ul li {
@@ -26,6 +28,13 @@
     text-align: center;
     padding: 14px;
 }
+
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
 
 
 .bottom-navbar {
@@ -65,7 +74,7 @@
 
 @media screen and (min-width: 700px) {
     .top-navbar {
-        display: block;
+        display: flex;
     }
 }
 

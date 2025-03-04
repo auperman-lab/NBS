@@ -1,0 +1,254 @@
+.backflip-container {
+    position: fixed;
+    bottom: 10px;
+    left: -100px; /* Start off-screen */
+    width: 120px;
+    height: 120px;
+}
+
+.backflip {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+
+.backflip_start {
+    animation: logo-appear 6s infinite;
+    animation-delay: 20s;
+
+}
+
+.backflip_1 {
+    animation: logo-backflip_1 6s infinite;
+    animation-delay: 20s;
+
+}
+
+.backflip_2 {
+    animation: logo-backflip_2 6s infinite;
+    animation-delay: 20s;
+
+}
+
+.backflip_3 {
+    animation: logo-backflip_3 6s infinite;
+    animation-delay: 20s;
+
+}
+
+
+@keyframes logo-appear {
+    0% {
+        left: -100px;
+        opacity: 1;
+    }
+    24% {
+        left: 100px;
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes logo-backflip_1 {
+    0% {
+        opacity: 0;
+    }
+    24% {
+        left: 100px;
+        opacity: 0;
+    }
+    25% {
+        left: 100px;
+        opacity: 1;
+        transform: rotateZ(0deg);
+
+    }
+    49% {
+        left: 100px;
+        opacity: 1;
+        transform: rotateZ(-90deg)
+    }
+    50% {
+        left: 100px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes logo-backflip_2 {
+    0% {
+        left: 100px;
+        opacity: 0;
+    }
+    49% {
+        left: 100px;
+        opacity: 0;
+    }
+    50% {
+        left: 100px;
+        opacity: 1;
+        transform: rotateZ(-90deg);
+    }
+    74% {
+        left: 100px;
+        opacity: 1;
+        transform: rotateZ(-270deg);
+    }
+    75% {
+        left: 100px;
+        opacity: 0;
+    }
+    100% {
+        left: 100px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo-backflip_3 {
+    0% {
+        left: 100px;
+        opacity: 0;
+    }
+    74% {
+        left: 100px;
+        opacity: 0;
+    }
+    75% {
+        left: 100px;
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        left: -100px;
+        opacity: 0;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    @keyframes logo-appear {
+        0% {
+            left: -100px;
+            bottom: 50px;
+            opacity: 1;
+        }
+        24% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+        }
+        25% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes logo-backflip_1 {
+        0% {
+            opacity: 0;
+        }
+        24% {
+            left: 100px;
+            bottom: 50px;
+            opacity: 0;
+        }
+        25% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+            transform: rotateZ(0deg);
+
+        }
+        49% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+            transform: rotateZ(-90deg)
+        }
+        50% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes logo-backflip_2 {
+        0% {
+            opacity: 0;
+        }
+        49% {
+            opacity: 0;
+        }
+        50% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+            transform: rotateZ(-90deg);
+        }
+        74% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+            transform: rotateZ(-270deg);
+        }
+        75% {
+            left: 100px;
+            bottom: 50px;
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes logo-backflip_3 {
+        0% {
+            opacity: 0;
+        }
+        74% {
+            opacity: 0;
+        }
+        75% {
+            left: 100px;
+            bottom: 50px;
+
+            opacity: 1;
+        }
+        99% {
+            bottom: 50px;
+
+            opacity: 1;
+        }
+        100% {
+            bottom: 50px;
+
+            left: -100px;
+            opacity: 0;
+        }
+    }
+
+
+}

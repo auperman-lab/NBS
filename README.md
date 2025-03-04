@@ -1,7 +1,8 @@
 # NBS
-tum-web-lab2
 
 https://auperman-lab.github.io/NBS/
+
+tum-web-lab2
 
 This is a laboratory work for Web Programming.
 
@@ -20,6 +21,8 @@ Some clickbait
 Decent Pricing Nowadays
 ![alt_text](assets/img/Pricing.png "Pricing")
 
+
+Thanks a lot for art Savi
 
 P.S. #BLM
 P.S.S #NLM

@@ -12,12 +12,40 @@
   <link rel="stylesheet" href="css/backflip.css"/>
   <script src="https://kit.fontawesome.com/fb56592460.js" crossorigin="anonymous"></script>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      function toggleLogo(buttonId) {
+        let logo = document.querySelector(`#${buttonId} img`);
+        let currentSrc = logo.src.split("/").pop(); // Get only the filename
+
+        if (currentSrc === "logo.png") {
+          logo.src = "assets/img/logo_black.png";
+        } else {
+          logo.src = "assets/img/logo.png";
+        }
+      }
+
+      document.getElementById("toggleBtn").addEventListener("click", function () {
+        toggleLogo("toggleBtn");
+      });
+
+      document.getElementById("toggleBtnMobile").addEventListener("click", function () {
+        toggleLogo("toggleBtnMobile");
+      });
+    });
+  </script>
+
 
 </head>
 <body>
 <nav class="top-navbar">
-  <img src="assets/img/logo.png" alt="My Logo" class="logo">
   <ul>
+    <li>
+      <button id="toggleBtn">
+        <img src="assets/img/logo.png" alt="My Logo" class="logo ">
+      </button>
+    </li>
+
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#pricing">Pricing</a></li>
@@ -29,7 +57,11 @@
   <ul>
     <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
     <li><a href="#about"><i class="fa-solid fa-circle-info"></i></a></li>
-    <li><a href="#pricing"><i class="fa-solid fa-money-bill"></i></a></li>
+    <li>
+      <button id="toggleBtnMobile">
+        <img src="assets/img/logo.png" alt="My Logo" class="logo">
+      </button>
+    </li>    <li><a href="#pricing"><i class="fa-solid fa-money-bill"></i></a></li>
     <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
   </ul>
 </nav>

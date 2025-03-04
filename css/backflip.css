@@ -137,16 +137,22 @@
 
 
 @media screen and (max-width: 700px) {
+    .backflip-container {
+
+        width: 80px;
+        height: 80px;
+    }
+
 
     @keyframes logo-appear {
         0% {
             left: -100px;
-            bottom: 50px;
+            bottom: 75px;
             opacity: 1;
         }
         24% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
         }
@@ -164,12 +170,12 @@
         }
         24% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
             opacity: 0;
         }
         25% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
             transform: rotateZ(0deg);
@@ -177,14 +183,14 @@
         }
         49% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
             transform: rotateZ(-90deg)
         }
         50% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 0;
         }
@@ -202,21 +208,21 @@
         }
         50% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
             transform: rotateZ(-90deg);
         }
         74% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
             transform: rotateZ(-270deg);
         }
         75% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
             opacity: 0;
         }
         100% {
@@ -233,17 +239,17 @@
         }
         75% {
             left: 100px;
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
         }
         99% {
-            bottom: 50px;
+            bottom: 75px;
 
             opacity: 1;
         }
         100% {
-            bottom: 50px;
+            bottom: 75px;
 
             left: -100px;
             opacity: 0;

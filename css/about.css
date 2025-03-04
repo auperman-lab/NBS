@@ -30,7 +30,7 @@
     height: fit-content;
     max-height: 1600px;
     gap:100px;
-    padding: 0px 40px;
+    padding: 0 40px;
 }
 
 .about .list{

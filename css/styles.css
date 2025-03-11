@@ -22,29 +22,20 @@ body {
     background-size: cover;
 }
 
-.home {
-    background: black;
-}
 b{
     color:orange;
 }
 
 
 /* Typography */
-h1 {
-    font-size: 4rem;
-    font-weight: bold;
-}
+
 
 h2 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 1.2rem;
-    max-width: 600px;
-}
+
 footer {
     text-align: center;
     padding: 15px;
